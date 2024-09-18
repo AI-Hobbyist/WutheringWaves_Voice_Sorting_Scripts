@@ -57,8 +57,8 @@ def run_commands(commands):
 
 # 指令列表
 commands = [
-    f'echo 1. 正在进行解包...', 
-    f'python 1_Unpack.py -v {ver}', 
+    #f'echo 1. 正在进行解包...', 
+    #f'python 1_Unpack.py -v {ver}', 
     f'echo 2. 正在整理并生成文件索引...',
     f'python 2_Sorting.py -v {ver} -l {lang_code}',
     f'echo 3. 正在生成标注...',
