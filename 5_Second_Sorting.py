@@ -16,7 +16,8 @@ source = str(args.source)
 dest = str(args.destination)
 lang = str(args.lang)
 monster = 'monster'
-battle = 'battle|life|atk|skill|hp70|hp50|hp30|die|summon|qte'
+# 战斗语音关键词
+battle = 'battle|life|atk|skill|hp70|hp50|hp30|die|summon|qte|hpdown|behit|engage|burst'
 conv = 'fetter'
 vaild_content = r'[a-zA-Z0-9\u4e00-\u9fa5\u3040-\u309f\u30a0-\u30ff\u1100-\u11ff\u3130-\u318f\uac00-\ud7af]+'
 placeholder = r'[{}]'
